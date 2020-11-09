@@ -46,3 +46,14 @@ When predicting credit risk, it is more import to maximize recall than precision
 Out of all of the results the AdaBoost performed the best across all three metrics, particularly recall. However, This model is not ready for deployment because its precision is so absurdly low that it doesn't really help us meaningfully narrow down possible cases of fraud. Despite catching 86% of the cases of fraud, there is still a pool of 7690 cases of positives when I include the false positives due to the .05 precision rate. This is an enduring issue throughout all of the models. The precision is too low and it muddles the results that we do catch.
 
 Unfortunately, none of these models would be ready for deployment. I need to find a way to get precision up, while not sacrificing recall.
+
+
+
+<img width="1130" alt="Screen Shot 2020-11-09 at 3 37 08 PM" src="https://user-images.githubusercontent.com/66881241/98609133-7bfa1c80-22a1-11eb-958f-fdf337d49d8b.png">
+<img width="1134" alt="Screen Shot 2020-11-09 at 3 36 59 PM" src="https://user-images.githubusercontent.com/66881241/98609138-7e5c7680-22a1-11eb-88c5-88eae6cf88b0.png">
+<img width="1138" alt="Screen Shot 2020-11-09 at 3 36 43 PM" src="https://user-images.githubusercontent.com/66881241/98609141-7ef50d00-22a1-11eb-8c0a-7f73fe7437ba.png">
+<img width="1132" alt="Screen Shot 2020-11-09 at 3 36 36 PM" src="https://user-images.githubusercontent.com/66881241/98609142-7f8da380-22a1-11eb-91cf-a1f2f90e0f2d.png">
+<img width="1116" alt="Screen Shot 2020-11-09 at 3 36 31 PM" src="https://user-images.githubusercontent.com/66881241/98609146-80263a00-22a1-11eb-99e2-cdb0dae0122b.png">
+<img width="1138" alt="Screen Shot 2020-11-09 at 3 36 23 PM" src="https://user-images.githubusercontent.com/66881241/98609147-81576700-22a1-11eb-98f1-7d292f335e3a.png">
+<img width="1260" alt="Screen Shot 2020-11-09 at 3 36 05 PM" src="https://user-images.githubusercontent.com/66881241/98609149-81effd80-22a1-11eb-8969-513a184fde9d.png">
+<img width="1132" alt="Screen Shot 2020-11-09 at 3 35 42 PM" src="https://user-images.githubusercontent.com/66881241/98609154-83b9c100-22a1-11eb-971a-65da86e8b23f.png">
